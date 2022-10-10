@@ -5,6 +5,10 @@
 
 body{
     font-family:Arial, Helvetica, sans-serif;
+    background-color: aliceblue;
+}
+.navbar{
+    background-color: rgb(194, 173, 213);
 }
 
 .cont{
@@ -43,7 +47,7 @@ nav .navbar .bg-light{
 
 .back{
     backface-visibility: hidden;
-    background-color: bisque;
+    background-color: rgb(249, 229, 232);
     transform: rotateY(180deg);
 }
 .card-img-top{
