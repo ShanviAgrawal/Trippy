@@ -1,0 +1,68 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.cont{
+    margin: 15px;   
+}
+.heading{
+    
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    border-radius: 5px;
+    background-color: rgb(249, 229, 232);
+}
+
+.card{
+    color: black;
+    border-radius: 10px;
+    margin: 10px;
+    transform-style: preserve-3d;
+    transition: transform 1200ms;
+}
+
+.card:hover{
+    box-shadow: 2px 2px 10px grey; /*shadow with 2 left right 10blur clr grey*/
+    transform: rotateY(180deg);
+    cursor: pointer;
+}
+nav .navbar .bg-light{
+    background-color: blueviolet;
+}
+
+.front{
+    backface-visibility: hidden;
+    background-color: white;
+}
+
+.back{
+    backface-visibility: hidden;
+    background-color: bisque;
+    transform: rotateY(180deg);
+}
+.card-img-top{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+ .card-title{
+   text-align: center;
+}
+
+.card-text{
+    text-align: center;
+    padding: 10px;
+}
+
+.btn{
+    color: blueviolet;
+    align-items: center;
+    
+    border-radius: 25;
+    border-color: blueviolet;
+}
