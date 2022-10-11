@@ -2,11 +2,22 @@
     padding: 0px;
     margin: 0px;
 }
+/* Hide scrollbar for IE, Edge and Firefox */
 
 body{
     font-family:Arial, Helvetica, sans-serif;
-    background-color: aliceblue;
+    background-color: aliceblue;   
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
 }
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+body::-webkit-scrollbar {
+    display: none;
+}
+
+
+
 .navbar{
     background-color: rgb(194, 173, 213);
 }
@@ -58,6 +69,7 @@ body{
     margin: 10px;
     transition: transform 1500ms ease;
     cursor: pointer;
+    transform: rotateY(180deg);
 }*/
 
 
@@ -83,6 +95,12 @@ img .card-img-top{
 }
  .card-title{
    text-align: center;
+   color:blueviolet;
+   
+}
+
+a:hover{
+    text-decoration: none;
 }
 
 .card-text{
@@ -98,7 +116,7 @@ img .card-img-top{
     border-color: blueviolet;
 }
 
- .active{
+ .nav-link:hover{
     color: white !important;
     text-shadow: 4px 4px 10px rgb(74, 7, 137);
 }
