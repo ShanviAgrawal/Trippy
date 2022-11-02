@@ -29,12 +29,12 @@ function myFunction(){
 
 
 
-const btn1 = document.querySelector("button");
+/*const btn1 = document.querySelector("button");
 const post = document.querySelector(".post");
 const widget = document.querySelector(".star-widget");
 
 btn1.onclick = () => {
   widget.style.display = "none";
   post.style.display = "block";
-}
+}*/
 
